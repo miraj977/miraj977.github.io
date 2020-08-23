@@ -112,14 +112,21 @@
 
                     <hr class="light">
                     <p>I'm a Software Engineer, Web Developer, Chef & an Artist!!!</p>
-                    <a id="show" class="page-scroll btn btn-default btn-xl sr-button">Learn more<i
-                            class="arrow down"></i> !!!</a>
+                    <a id="show" class="page-scroll btn btn-default btn-xl sr-button">Learn more <i
+                            class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
 
-                    <p id="me" style="font-size:15px;margin-bottom:-35px;margin-top:20px;"><br>I'm Miraj Aryal, a
-                        Software engineering graduate from Federation University (Graduated on August 2019). Im an
-                        experienced Web Developer with more than 2 years of experience and I specialise in PHP. I'm on a
-                        Post Study Work or Temporary Graduate Visa (Visa 485) with full working rights. I'm very
-                        passionate about programming and looking forward to building a very strong career in IT.</p>
+                    <div id="me" style="font-size:15px;margin-bottom:-35px;margin-top:20px;">
+                        <br>
+                        <ul>
+                            <li>Over 2+ years of IT experience in the industry as a Web/PHP Developer</li>
+                            <li>Extensive experience in developing web pages using PHP/MYSQL, integrating RESTful APIs
+                                and Payment Gateways, WordPress, HTML/HTML5, CSS/CSS3, JavaScript, React JS, Angular JS
+                                (1.X) jQuery, JSON, Node.js, Ajax, Bootstrap, Tailwind CSS</li>
+                            <li>Ability to work effectively while working as a team member as well as individually</li>
+                            <li>Excellent communication and Inter-Personal Skills, well organized, goal oriented</li>
+                        </ul>
+                    </div>
 
                 </div>
             </div>
@@ -497,12 +504,12 @@
                 <span class="close cursor" onclick="closeModal()">&times;</span>
 
                 <?php
-                for ($i = 1; $i <= 28; $i++) {
+for ($i = 1; $i <= 28; $i++) {
 
-                    echo '<div class="mySlides"><div class="numbertext">' . $i . ' / 28</div>';
-                    echo "<img src='art/" . $i . ".jpg' class='artimg'></div> ";
-                }
-                ?>
+    echo '<div class="mySlides"><div class="numbertext">' . $i . ' / 28</div>';
+    echo "<img src='art/" . $i . ".jpg' class='artimg'></div> ";
+}
+?>
 
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -545,12 +552,12 @@
                 <span class="close cursor" onclick="closeModals()">&times;</span>
 
                 <?php
-                for ($i = 1; $i <= 7; $i++) {
+for ($i = 1; $i <= 7; $i++) {
 
-                    echo '<div class="mySlide" style="background-color:#2b2828 !important;"><div class="numbertext">' . $i . ' / 6</div>';
-                    echo "<img src='food/" . $i . ".jpg' class='artimg'></div> ";
-                }
-                ?>
+    echo '<div class="mySlide" style="background-color:#2b2828 !important;"><div class="numbertext">' . $i . ' / 6</div>';
+    echo "<img src='food/" . $i . ".jpg' class='artimg'></div> ";
+}
+?>
 
                 <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlide(1)">&#10095;</a>
