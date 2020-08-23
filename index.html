@@ -551,13 +551,10 @@ for ($i = 1; $i <= 28; $i++) {
             <div class="modal-content">
                 <span class="close cursor" onclick="closeModals()">&times;</span>
 
-                <?php
-for ($i = 1; $i <= 7; $i++) {
-
-    echo '<div class="mySlide" style="background-color:#2b2828 !important;"><div class="numbertext">' . $i . ' / 6</div>';
-    echo "<img src='food/" . $i . ".jpg' class='artimg'></div> ";
-}
-?>
+                <div class="mySlide" style="background-color:#2b2828 !important;">
+                    <div class="numbertext">1/ 6</div>';
+                    <img src='food/1.jpg' class='artimg'>
+                </div>
 
                 <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlide(1)">&#10095;</a>
